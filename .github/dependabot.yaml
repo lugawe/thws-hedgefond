@@ -1,0 +1,22 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: main
+    schedule:
+      interval: weekly
+    labels:
+      - dependencies
+      - github-actions
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: maven
+    directory: /
+    target-branch: main
+    schedule:
+      interval: daily
+    labels:
+      - dependencies
+      - maven
+    open-pull-requests-limit: 10
