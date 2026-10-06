@@ -1,2 +1,4 @@
 # thws-hedgefond
-THWS Hedgefond
+
+THWS Hedgefond - show graphs for stocks
+
